@@ -1,0 +1,54 @@
+.contact_wrapper {
+    background-color: #021526;
+    overflow: hidden;
+
+    & .contact_container {
+        max-width: 1248px;
+        margin: 0 auto;
+
+        & .contact_con {
+            margin: 50px 10px;
+            text-align: left;
+
+            & .contact_info {
+                color: white;
+
+                & a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                & h1 {
+                    font-size: 40px;
+                    color: #fb6f92;
+                    text-align: center;
+                }
+
+                & h1::before,
+                h1::after {
+                    content: '';
+                    display: inline-block;
+                    width: 25px;
+                    height: 3px;
+                    background-color: #0085FF;
+                    margin: 10px 0;
+                }
+
+                & h2 {
+                    color: #0085FF;
+                    font-size: 32px;
+                    margin-bottom: 20px;
+                }
+
+                & p {
+                    font-size: 25px;
+                    margin: 10px;
+                }
+            }
+
+
+        }
+    }
+
+
+}

@@ -1,0 +1,134 @@
+.skills_wrapper {
+    overflow: hidden;
+
+    & .skills_con {
+        max-width: 1248px;
+        margin: 0 auto;
+        text-align: center;
+        color: #333;
+        padding: 50px 0;
+
+        & h1 {
+            font-size: 40px;
+            color: #fb6f92;
+            text-align: center;
+        }
+
+        & h1::before,
+        h1::after {
+            content: '';
+            display: inline-block;
+            width: 25px;
+            height: 3px;
+            background-color: #0085FF;
+            margin: 10px 0;
+        }
+
+        & dl {
+            margin: 50px 20px;
+
+            & dt {
+                font-size: 36px;
+                color: #0085FF;
+                text-align: left;
+            }
+
+            & dd {
+                font-size: 25px;
+                margin-top: 25px;
+                text-align: left;
+            }
+        }
+
+        & .skills_list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 20px 0;
+
+            & li {
+                margin: 0 20px;
+
+                & div {
+                    margin-top: 10px;
+                    font-size: 25px;
+                }
+
+                :hover {
+                    color: #fb6f92;
+                }
+            }
+
+            & svg {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        & .skills_img {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            /* justify-content: center;
+            align-items: center; */
+            list-style: none;
+            ;
+
+            & li {
+                margin: 20px 20px;
+            }
+
+            & .skills_img1 {
+                width: 573px;
+                height: 405px;
+                border-radius: 8px;
+                background-image: url('../img/Certificate/HTML.png');
+                background-size: cover;
+                background-position: center;
+            }
+
+            & .skills_img2 {
+                width: 573px;
+                height: 405px;
+                border-radius: 8px;
+                background-image: url('../img/Certificate/CSS.png');
+                background-size: cover;
+                background-position: center;
+            }
+
+            & .skills_img3 {
+                width: 573px;
+                height: 405px;
+                border-radius: 8px;
+                background-image: url('../img/Certificate/JavaScript.png');
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .skills_wrapper {
+        & .skills_con {
+            & .skills_img {
+                grid-template-columns: 1fr;
+                margin-top: 50px;
+
+                & li {
+                    margin: 20px 0;
+                }
+            }
+
+            & .skills_list {
+                flex-direction: column;
+                margin: 50px 0;
+
+                & li {
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
