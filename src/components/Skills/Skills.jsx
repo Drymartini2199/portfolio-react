@@ -3,6 +3,9 @@ import styles from './Skills.module.css'
 import { FaSquareJs, FaReact, FaGitAlt, FaNode, FaHtml5, FaCss3Alt, FaPython, FaPhp } from "react-icons/fa6";
 import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import Tilt from 'react-parallax-tilt';
+import cerhtml from '../img/Certificate/HTML.png'
+import cercss from '../img/Certificate/CSS.png'
+import cerjs from '../img/Certificate/JavaScript.png'
 
 function Skills() {
   return (
@@ -64,19 +67,24 @@ function Skills() {
         </ul>
       </div>
       <div>
-        <ul className={styles.skills_img}>
-          <Tilt scale={1.0} transitionSpeed={2500} tiltReverse={true}>
-            <li className={styles.skills_img1}></li>
-          </Tilt>
-          <Tilt scale={1.0} transitionSpeed={2500} tiltReverse={true}>
-            <li className={styles.skills_img2}></li>
-          </Tilt>
-          <Tilt scale={1.0} transitionSpeed={2500} tiltReverse={true}>
-            <li className={styles.skills_img3}></li>
-          </Tilt>
-
-
-
+        <ul className={styles.skills_items}>
+          <li>
+            <div>
+              <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
+                <img src={cerhtml} alt="html" />
+              </Tilt>
+            </div>
+          </li>
+          <li><div>
+            <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
+              <img src={cercss} alt="css" />
+            </Tilt>
+          </div></li>
+          <li><div>
+            <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
+              <img src={cerjs} alt="js" />
+            </Tilt>
+          </div></li>
         </ul>
       </div>
     </div>

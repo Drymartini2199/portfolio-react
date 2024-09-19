@@ -22,7 +22,7 @@
     & h2 {
         color: #0085FF;
         font-size: 32px;
-        margin: 100px 20px;
+        margin-top: 40px;
     }
 
     & .port_title {
@@ -41,6 +41,7 @@
             margin-top: 50px;
 
             & img {
+                margin: 10px;
                 max-width: 500px;
                 max-height: 400px;
                 border-radius: 20px;
