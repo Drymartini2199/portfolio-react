@@ -4,7 +4,7 @@
     overflow: hidden;
 
     & h1 {
-        font-size: 40px;
+        font-size: 50px;
         color: #fb6f92;
         text-align: center;
     }
@@ -21,13 +21,12 @@
 
     & h2 {
         color: #0085FF;
-        font-size: 32px;
+        font-size: 40px;
         margin-top: 40px;
     }
 
     & .port_title {
         text-align: center;
-        font-size: 40px;
         color: #fb6f92;
     }
 
@@ -51,7 +50,7 @@
 
             & p {
                 text-align: left;
-                font-size: 25px;
+                font-size: 30px;
                 margin-top: 25px;
             }
         }

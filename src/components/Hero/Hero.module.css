@@ -16,7 +16,7 @@
             margin: 0 20px;
 
             & .text_1 {
-                font-size: 32px;
+                font-size: 40px;
             }
 
             & .text_2 {
@@ -26,7 +26,7 @@
             }
 
             & .text_3 {
-                font-size: 32px;
+                font-size: 40px;
 
                 & span {
                     color: #fb6f92;
@@ -34,13 +34,10 @@
             }
 
             & .text_4 {
-                max-width: 90%;
-                font-size: 25px;
+                width: 94%;
+                text-align: justify;
+                font-size: 30px;
                 margin-top: 25px;
-
-                & ul {
-                    list-style: none;
-                }
             }
         }
 

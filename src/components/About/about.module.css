@@ -9,10 +9,9 @@
 
         & .about_con {
             margin: 50px 10px;
-            text-align: center;
 
             & h1 {
-                font-size: 40px;
+                font-size: 50px;
                 color: #fb6f92;
                 text-align: center;
             }
@@ -41,8 +40,17 @@
 
                 & .text_1,
                 .text_2 {
-                    font-size: 25px;
-                    text-align: left;
+                    font-size: 30px;
+
+                    & blockquote {
+                        margin-top: 40px;
+                        margin-left: 55px;
+
+                        & q {
+                            font-size: 35px;
+                            font-weight: bold;
+                        }
+                    }
 
                     & h2 {
                         color: #0085FF;
