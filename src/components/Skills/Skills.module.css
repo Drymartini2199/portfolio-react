@@ -28,13 +28,13 @@
             margin: 50px 20px;
 
             & dt {
-                font-size: 40px;
+                font-size: 35px;
                 color: #0085FF;
                 text-align: left;
             }
 
             & dd {
-                font-size: 30px;
+                font-size: 25px;
                 margin-top: 25px;
                 text-align: left;
             }
