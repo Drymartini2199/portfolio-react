@@ -59,8 +59,8 @@
                         margin-bottom: 20px;
                     }
 
-                    & h3 {
-                        margin-top: 25px;
+                    & h3,
+                    li {
                         font-weight: lighter;
 
                         & span {
