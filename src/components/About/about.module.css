@@ -45,8 +45,7 @@
                     }
 
                     & blockquote {
-                        margin-top: 40px;
-                        margin-left: 55px;
+                        margin: 40px 0 55px 55px;
 
                         & q {
                             font-size: 35px;
