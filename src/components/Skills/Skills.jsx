@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './Skills.module.css'
 import { FaSquareJs, FaReact, FaGitAlt, FaNode, FaHtml5, FaCss3Alt, FaPython, FaPhp } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandNextjs } from "react-icons/tb";
 import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import Tilt from 'react-parallax-tilt';
 import cerhtml from '../img/Certificate/HTML.png'
@@ -13,8 +15,10 @@ function Skills() {
       <h1 className={styles.skills_title}> My Skill set </h1>
       <div>
         <dl>
-          <dt><b>ทักษะและประสบการณ์ของฉัน</b></dt>
-          <dd>โดยส่วนตัวจะเป็นการศึกษาด้วยตัวเองจากหนังสือ และสื่อออนไลน์ ยังขาดประสบการณ์ทำงานจริงทำให้ยังขาดความมั่นใจอยู่เสมอ เลยอยากจะขอโอกาสที่จะได้เรียนรู้และพัฒนาตัวเองในสายงานด้านนี้ เพื่อจะได้มีเป้าหมายที่จะอยากมีชีวิตต่อไป</dd>
+          <dt><b>My Skills and Experience</b></dt>
+          <dd>
+            I have mostly been self-studying through books and online resources. Since I lack real work experience, <br /> I sometimes feel uncertain in my abilities. I would be grateful for an opportunity to learn and develop in this field, so I can continue growing and improving myself.
+          </dd>
         </dl>
       </div>
       <div>
@@ -46,16 +50,6 @@ function Skills() {
           </li>
           <li>
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
-              <FaReact />
-            </Tilt><br />react</div>
-          </li>
-          <li>
-            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
-              <FaNode />
-            </Tilt><br />node.js</div>
-          </li>
-          <li>
-            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
               <SiAdobephotoshop />
             </Tilt><br />photoshop</div>
           </li>
@@ -63,6 +57,35 @@ function Skills() {
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
               <SiAdobeillustrator />
             </Tilt><br />illustrator</div>
+          </li>
+        </ul>
+        <div>
+          <dl>
+            <dt><b>My future study plan</b></dt>
+          </dl>
+        </div><br />
+        <ul className={styles.skills_list}>
+
+          <li>
+            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
+              <FaReact />
+            </Tilt><br />react</div>
+          </li>
+          <li>
+            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
+              <RiTailwindCssFill />
+            </Tilt><br />tailwind</div>
+          </li>
+          <li>
+            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
+              <TbBrandNextjs />
+            </Tilt><br />next.js</div>
+          </li>
+          <li>
+            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
+              <FaNode />
+            </Tilt>
+              <br />node.js</div>
           </li>
         </ul>
       </div>

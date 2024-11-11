@@ -26,8 +26,8 @@ function Hero() {
               </span>
             </p>
             <p className={styles.text_4}>
-              ผมเป็นนักศึกษาย้ายคณะบอกตามตรงว่ายากกว่าคณะเดิมพอสมควร<br /> สิ่งที่ทำให้ผมลำบากในการเรียนคือหาเพื่อนไม่ได้เลยต้องเรียนคนเดียว<br />
-              ผมยินดีเป็นอย่างยิ่งที่จะได้เรียนรู้งานและเป็นส่วนหนึ่งของบริษัท
+              I’m a student who switched majors to pursue a career in Software Development. In my first year of working, I would like to intern as a Front-end Developer. The following year, I plan to move to a Back-end Developer role to eventually become a Full-Stack Developer. After that, I’ll let my future self decide on the next steps.
+              I am excited to learn, contribute, and become a part of your company.
             </p>
             <ul className={styles.hero_social}>
               <li><a href="https://github.com/Drymartini2199" target='_blank'><FaGithub /></a></li>
