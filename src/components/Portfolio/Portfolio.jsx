@@ -39,12 +39,6 @@ function Portfolio() {
             </Tilt>
             <p>หัดเชื่อมต่อ API</p>
           </div>
-          <div className={styles.port_items}>
-            <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
-              <img src={c4} alt="c4" />
-            </Tilt>
-            <p>หัดเขียนเว็บ Portfolio โดยใช้ React</p>
-          </div>
         </div>
       </div>
       <div>
