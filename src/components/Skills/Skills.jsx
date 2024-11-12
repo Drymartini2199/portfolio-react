@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './Skills.module.css'
 import { FaSquareJs, FaReact, FaGitAlt, FaNode, FaHtml5, FaCss3Alt, FaPython, FaPhp } from "react-icons/fa6";
+import { BiLogoTypescript } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
 import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import Tilt from 'react-parallax-tilt';
 import cerhtml from '../img/Certificate/HTML.png'
@@ -40,7 +41,7 @@ function Skills() {
           </li>
           <li>
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
-              <TbBrandTypescript />
+              <BiLogoTypescript />
             </Tilt><br />typescript</div>
           </li>
           <li>
