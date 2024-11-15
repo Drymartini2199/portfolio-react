@@ -3,29 +3,29 @@
     overflow: hidden;
     color: white;
 
-    & .container {
+    .container {
         max-width: 1248px;
         margin: 60px auto;
     }
 
-    & .hero_con {
+    .hero_con {
         display: flex;
         justify-content: space-between;
 
-        & .hero_info {
+        .hero_info {
             margin: 0 20px;
 
-            & .text_1 {
+            .text_1 {
                 font-size: 40px;
             }
 
-            & .text_2 {
+            .text_2 {
                 font-size: 60px;
                 font-weight: bold;
                 color: #0085FF;
             }
 
-            & .text_3 {
+            .text_3 {
                 font-size: 40px;
 
                 & span {
@@ -33,14 +33,14 @@
                 }
             }
 
-            & .text_4 {
+            .text_4 {
                 text-align: justify;
                 font-size: 25px;
                 margin-top: 25px;
             }
         }
 
-        & .hero_img {
+        .hero_img {
             width: 300px;
             height: 300px;
             margin: 0 20px;
@@ -52,15 +52,15 @@
             border: #fb6f92 5px solid;
         }
 
-        & .hero_social {
+        .hero_social {
             margin-top: 25px;
             display: flex;
             list-style: none;
 
-            & li {
+            li {
                 margin-right: 10px;
 
-                & svg {
+                svg {
                     width: 32px;
                     height: 32px;
                     color: white;
@@ -68,7 +68,7 @@
             }
         }
 
-        & .typing-effect {
+        .typing-effect {
             margin-left: 20px;
         }
 
@@ -79,13 +79,13 @@
     .hero_wrapper {
         height: auto;
 
-        & .hero_con {
+        .hero_con {
             margin: 50px 0;
             flex-direction: column;
             padding: 20px;
             align-items: center;
 
-            & .hero_info {
+            .hero_info {
                 width: 100%;
             }
         }

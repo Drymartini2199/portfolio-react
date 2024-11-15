@@ -2,30 +2,30 @@
     background-color: #021526;
     overflow: hidden;
 
-    & .contact_container {
+    .contact_container {
         max-width: 1248px;
         margin: 0 auto;
 
-        & .contact_con {
+        .contact_con {
             margin: 50px 10px;
             text-align: left;
 
-            & .contact_info {
+            .contact_info {
                 color: white;
 
-                & a {
+                a {
                     text-decoration: none;
                     color: white;
                 }
 
-                & h1 {
+                h1 {
                     font-size: 50px;
                     color: #fb6f92;
                     text-align: center;
                     margin-bottom: 25px;
                 }
 
-                & h1::before,
+                h1::before,
                 h1::after {
                     content: '';
                     display: inline-block;
@@ -35,15 +35,19 @@
                     margin: 10px 0;
                 }
 
-                & h2 {
+                h2 {
                     color: #0085FF;
                     font-size: 40px;
                     margin-bottom: 20px;
                 }
 
-                & p {
+                p {
                     font-size: 25px;
                     margin: 10px;
+
+                    span {
+                        color: #fb6f92;
+                    }
                 }
             }
         }

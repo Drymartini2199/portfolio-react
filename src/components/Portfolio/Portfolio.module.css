@@ -3,13 +3,13 @@
     margin: 50px auto;
     overflow: hidden;
 
-    & h1 {
+    h1 {
         font-size: 50px;
         color: #fb6f92;
         text-align: center;
     }
 
-    & h1::before,
+    h1::before,
     h1::after {
         content: '';
         display: inline-block;
@@ -19,27 +19,44 @@
         margin: 10px 0;
     }
 
-    & h2 {
+    h2 {
         color: #0085FF;
         font-size: 40px;
         margin-top: 40px;
+        margin-left: 20px;
     }
 
-    & .port_title {
+    .port_title {
         text-align: center;
         color: #fb6f92;
     }
 
-    & .port_list {
+    .port_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
 
-
-        & .port_items {
+        .port_items {
             margin-top: 50px;
 
-            & img {
+            .text1 {
+                color: #0085FF;
+            }
+
+            .ul_project {
+                font-size: 20px;
+
+                li {
+                    margin-left: 30px;
+                    margin-top: 10px;
+                }
+            }
+
+            span {
+                color: #fb6f92;
+            }
+
+            img {
                 margin: 10px;
                 max-width: 500px;
                 max-height: 400px;
@@ -48,10 +65,25 @@
                 border: black 5px solid;
             }
 
-            & p {
+            p {
                 text-align: left;
                 font-size: 25px;
                 margin-top: 25px;
+            }
+
+            p:nth-of-type(2) {
+                text-indent: 2rem;
+                font-size: 22px;
+                color: #0085FF;
+            }
+
+            a {
+                display: block;
+                text-indent: 1rem;
+                margin-top: 20px;
+                font-size: 25px;
+                color: #0085FF;
+                text-decoration: none;
             }
         }
     }
@@ -59,12 +91,12 @@
 
 @media screen and (max-width: 1050px) {
     .port_con {
-        & .port_list {
+        .port_list {
             grid-template-columns: 1fr;
             justify-items: center;
 
-            & .port_items {
-                & img {
+            .port_items {
+                img {
                     width: 100%;
                 }
             }

@@ -11,7 +11,7 @@ function Contact() {
                         <h1> Contact Me </h1>
                         <h2> Get in touch </h2>
                         <p><FaPhone /> (+66) 65 575 9995</p>
-                        <p><FaEnvelope /><a href="mailto:a.sreesunthorn@gmail.com"> a.sreesunthorn@gmail.com </a></p>
+                        <p><FaEnvelope /><a href="mailto:a.sreesunthorn@gmail.com"> a.sreesunthorn@gmail.com </a> <span>(แนะนำ)</span></p>
                     </div>
                 </div>
             </div>

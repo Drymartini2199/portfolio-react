@@ -3,20 +3,20 @@
     background-color: #021526;
     color: white;
 
-    & .container {
+    .container {
         max-width: 1248px;
         margin: 0 auto;
 
-        & .about_con {
+        .about_con {
             margin: 50px 10px;
 
-            & h1 {
+            h1 {
                 font-size: 50px;
                 color: #fb6f92;
                 text-align: center;
             }
 
-            & h1::before,
+            h1::before,
             h1::after {
                 content: '';
                 display: inline-block;
@@ -28,43 +28,50 @@
 
 
 
-            & .title {
+            .title {
                 margin-bottom: 20px;
             }
 
-            & .about_info {
+            .about_info {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
 
-                & .text_1,
+                ul {
+                    list-style: none;
+                }
+
+                .text_1,
                 .text_2 {
                     font-size: 30px;
 
-                    & * {
+                    .span1 {
+                        color: #0085FF;
+                    }
+
+                    .span2 {
+                        color: #fb6f92;
+                    }
+
+                    * {
                         margin: 10px 0;
                     }
 
-                    & blockquote {
+                    blockquote {
                         margin: 40px 0 55px 55px;
 
-                        & q {
+                        q {
                             font-size: 35px;
                             font-weight: bold;
                         }
                     }
 
-                    & h2 {
-                        color: #0085FF;
+                    h2 {
+                        /* color: #0085FF; */
                         margin-bottom: 20px;
                     }
 
-                    & h3,
-                    li {
+                    h3 {
                         font-weight: lighter;
-
-                        & span {
-                            color: #fb6f92;
-                        }
                     }
                 }
             }
@@ -74,12 +81,12 @@
 
 @media screen and (max-width: 1050px) {
     .about_wrapper {
-        & .container {
-            & .about_con {
-                & .about_info {
+        .container {
+            .about_con {
+                .about_info {
                     display: grid;
                     grid-template-columns: 1fr;
-                    margin-left: 75px
+                    margin-left: 20px
                 }
             }
         }

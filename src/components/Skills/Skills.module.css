@@ -1,20 +1,20 @@
 .skills_wrapper {
     overflow: hidden;
 
-    & .skills_con {
+    .skills_con {
         max-width: 1248px;
         margin: 0 auto;
         text-align: center;
         color: #333;
         padding: 50px 0;
 
-        & h1 {
+        h1 {
             font-size: 50px;
             color: #fb6f92;
             text-align: center;
         }
 
-        & h1::before,
+        h1::before,
         h1::after {
             content: '';
             display: inline-block;
@@ -24,33 +24,33 @@
             margin: 10px 0;
         }
 
-        & dl {
+        dl {
             margin: 50px 20px;
 
-            & dt {
+            dt {
                 font-size: 35px;
                 color: #0085FF;
                 text-align: left;
             }
 
-            & dd {
+            dd {
                 font-size: 25px;
                 margin-top: 25px;
                 text-align: left;
             }
         }
 
-        & .skills_list {
+        .skills_list {
             display: flex;
             justify-content: center;
             align-items: center;
             list-style: none;
             margin: 20px 0;
 
-            & li {
+            li {
                 margin: 0 20px;
 
-                & div {
+                div {
                     margin-top: 10px;
                     font-size: 25px;
                 }
@@ -60,19 +60,19 @@
                 }
             }
 
-            & svg {
+            svg {
                 width: 100px;
                 height: 100px;
             }
         }
 
-        & .skills_items {
+        .skills_items {
             display: grid;
             grid-template-columns: 1fr 1fr;
             justify-items: center;
             list-style: none;
 
-            & img {
+            img {
                 margin: 10px;
                 max-width: 573px;
                 max-height: 405px;
@@ -86,13 +86,13 @@
 
 @media screen and (max-width: 1050px) {
     .skills_wrapper {
-        & .skills_con {
+        .skills_con {
 
-            & .skills_img {
+            .skills_img {
                 grid-template-columns: 1fr;
             }
 
-            & .skills_items {
+            .skills_items {
                 grid-template-columns: 1fr;
 
                 & img {
@@ -100,11 +100,11 @@
                 }
             }
 
-            & .skills_list {
+            .skills_list {
                 flex-direction: column;
                 margin: 50px 0;
 
-                & li {
+                li {
                     margin: 20px 0;
                 }
             }

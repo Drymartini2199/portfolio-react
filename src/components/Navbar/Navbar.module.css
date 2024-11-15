@@ -3,11 +3,11 @@ nav {
     overflow: hidden;
     position: relative;
 
-    & a {
+    a {
         color: #fff;
     }
 
-    & .bars {
+    .bars {
         position: absolute;
         width: 40px;
         height: 40px;
@@ -29,26 +29,26 @@ nav {
         justify-content: space-between;
         align-items: center;
 
-        & .logo {
-            & a {
+        .logo {
+            a {
                 text-decoration: none;
                 font-weight: bold;
                 font-size: 40px;
 
-                & span {
+                span {
                     color: #fb6f92;
                 }
             }
         }
 
-        & ul {
+        ul {
             display: flex;
             list-style: none;
 
-            & li {
+            li {
                 margin: 0 35px;
 
-                & a {
+                a {
                     text-decoration: none;
 
                     &:hover {
@@ -69,7 +69,7 @@ nav {
         align-items: start !important;
         margin-left: 30px;
 
-        & ul {
+        ul {
             display: none !important;
         }
     }
@@ -77,14 +77,14 @@ nav {
     .mobile_menu {
         list-style: none;
 
-        & li {
+        li {
             margin: 35px;
 
-            & a {
+            a {
                 font-size: 30px;
                 text-decoration: none;
 
-                &:hover {
+                :hover {
                     color: #fb6f92;
                 }
             }
@@ -92,7 +92,7 @@ nav {
     }
 
     /* Mobile Menu */
-    & .mobile_button {
+    .mobile_button {
         width: 100px;
         height: 35px;
         background-color: #fff;
@@ -105,11 +105,11 @@ nav {
         margin-left: 35px;
         margin-bottom: 20px;
 
-        &:hover {
+        :hover {
             box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
         }
 
-        & a {
+        a {
             text-decoration: none;
             color: #333;
         }
