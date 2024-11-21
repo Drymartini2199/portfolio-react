@@ -1,6 +1,5 @@
 nav {
     background-color: black;
-    overflow: hidden;
     position: relative;
 
     a {
@@ -14,7 +13,6 @@ nav {
         top: 45px;
         right: 20px;
         color: #fff;
-
     }
 
     .container {
