@@ -36,8 +36,8 @@ function Portfolio() {
             <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
               <img src={c2} alt="c2" />
             </Tilt>
-            <p>ฝึกใช้ JavaScript เพื่อทำ kanbanBoard</p>
-            <p>โดยสามารถย้าย Card ไปมาได้ระหว่างกระดานบอร์ด</p>
+            <p>ฝึกใช้ JavaScript เพื่อทำ kanbanBoard โดยที่สามารถย้าย Card ไปมาได้ระหว่างกระดานบอร์ด</p>
+            <p></p>
           </div>
           <div className={styles.port_items}>
             <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>

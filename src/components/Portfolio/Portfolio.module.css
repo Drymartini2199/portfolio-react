@@ -69,21 +69,33 @@
                 text-align: left;
                 font-size: 25px;
                 margin-top: 25px;
+                margin-left: 20px;
             }
 
             p:nth-of-type(2) {
                 text-indent: 2rem;
                 font-size: 22px;
-                color: #0085FF;
+                /* color: #0085FF; */
             }
 
             a {
+                margin-left: 20px;
+                width: 310px;
+                height: 40px;
+                border-radius: 15px;
                 display: block;
                 text-indent: 1rem;
                 margin-top: 20px;
                 font-size: 25px;
                 color: #0085FF;
                 text-decoration: none;
+
+                &:hover {
+                    line-height: 40px;
+                    color: white;
+                    background-color: #0085FF;
+                    transition: 0.5s;
+                }
             }
         }
     }
