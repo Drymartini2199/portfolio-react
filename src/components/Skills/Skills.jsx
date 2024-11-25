@@ -67,7 +67,7 @@ function Skills() {
         </ul>
         <div>
           <dl>
-            <dt><b>My future study plan</b></dt>
+            <dt><b>This is my learning plan before the internship</b></dt>
           </dl>
         </div><br />
         <ul className={styles.skills_list}>
