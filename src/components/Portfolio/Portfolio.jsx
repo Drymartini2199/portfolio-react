@@ -115,7 +115,7 @@ function Portfolio() {
             <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
               <img src={fnp6} alt="fnp6" />
             </Tilt>
-            <p>Second-Hand Products Centre Website <span>( ยังไม่เสร็จ )</span></p>
+            <p>Second-Hand Products Centre Website</p>
             <div className={styles.text_project}>
               <p className={styles.text1}>ส่วนที่รับผิดชอบในโปรเจค</p>
               <ul className={styles.ul_project}>
