@@ -8,11 +8,6 @@
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  position: relative;
-}
-
 nav {
   overflow: hidden;
   position: fixed;

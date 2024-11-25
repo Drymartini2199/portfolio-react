@@ -2,6 +2,7 @@
     overflow: hidden;
     background-color: #021526;
     color: white;
+    margin-top: 60px;
 
     .container {
         max-width: 1248px;

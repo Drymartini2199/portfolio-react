@@ -1,5 +1,6 @@
 .skills_wrapper {
     overflow: hidden;
+    margin-top: 60px;
 
     .skills_con {
         max-width: 1248px;
