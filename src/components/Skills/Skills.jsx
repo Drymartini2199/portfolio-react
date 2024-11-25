@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import { FaSquareJs, FaReact, FaGitAlt, FaNode, FaHtml5, FaCss3Alt, FaPython, FaPhp } from "react-icons/fa6";
+import { FaSquareJs, FaReact, FaGitAlt, FaNode, FaHtml5, FaCss3Alt, FaPython, FaPhp, FaAngular } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -76,6 +76,11 @@ function Skills() {
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
               <FaReact />
             </Tilt><br />react</div>
+          </li>
+          <li>
+            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
+              <FaAngular />
+            </Tilt><br />angular</div>
           </li>
           <li>
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
