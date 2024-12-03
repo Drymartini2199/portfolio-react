@@ -44,6 +44,7 @@
             width: 300px;
             height: 300px;
             margin: 0 20px;
+            margin-top: 50px;
             border-radius: 100%;
             background-color: #0085FF;
             background-image: url('../img/myImg.png');
@@ -87,6 +88,19 @@
 
             .hero_info {
                 width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero_wrapper {
+
+        .hero_con {
+
+            .hero_img {
+                width: 200px;
+                height: 200px;
             }
         }
     }
