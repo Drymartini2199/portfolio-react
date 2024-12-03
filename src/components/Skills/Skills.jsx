@@ -71,26 +71,10 @@ function Skills() {
           </dl>
         </div><br />
         <ul className={styles.skills_list}>
-
           <li>
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
               <FaReact />
             </Tilt><br />react</div>
-          </li>
-          <li>
-            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
-              <FaAngular />
-            </Tilt><br />angular</div>
-          </li>
-          <li>
-            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
-              <RiTailwindCssFill />
-            </Tilt><br />tailwind</div>
-          </li>
-          <li>
-            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
-              <TbBrandNextjs />
-            </Tilt><br />next.js</div>
           </li>
           <li>
             <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
