@@ -18,7 +18,7 @@ function Skills() {
         <dl>
           <dt><b>My Skills and Experience</b></dt>
           <dd>
-            I have mostly been self-studying through books and online resources. Since I lack real work experience, <br /> I sometimes feel uncertain in my abilities. I would be grateful for an opportunity to learn and develop in this field, so I can continue growing and improving myself.
+            I have mostly been self-studying through books and online resources. Since I lack real work experience, I sometimes feel uncertain in my abilities. I would be grateful for an opportunity to learn and develop in this field, so I can continue growing and improving myself.
           </dd>
         </dl>
       </div>

@@ -40,11 +40,12 @@
             margin-top: 50px;
 
             .text1 {
+                font-size: 35px;
                 color: #0085FF;
             }
 
             .ul_project {
-                font-size: 20px;
+                font-size: 28px;
 
                 li {
                     margin-left: 30px;
@@ -67,7 +68,7 @@
 
             p {
                 text-align: left;
-                font-size: 25px;
+                font-size: 28px;
                 margin-top: 25px;
                 margin-left: 20px;
             }
@@ -80,13 +81,13 @@
 
             a {
                 margin-left: 20px;
-                width: 310px;
+                width: 345px;
                 height: 40px;
                 border-radius: 15px;
                 display: block;
                 text-indent: 1rem;
                 margin-top: 20px;
-                font-size: 25px;
+                font-size: 28px;
                 color: #0085FF;
                 text-decoration: none;
 
