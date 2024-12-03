@@ -82,6 +82,12 @@ function Skills() {
             </Tilt>
               <br />node.js</div>
           </li>
+          <li>
+            <div><Tilt scale={1.7} transitionSpeed={2500} tiltReverse={true}>
+              <TbBrandNextjs />
+            </Tilt>
+              <br />next.js</div>
+          </li>
         </ul>
       </div>
       <div>
