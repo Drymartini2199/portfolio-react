@@ -102,7 +102,7 @@
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1075px) {
     .port_con {
         .port_list {
             grid-template-columns: 1fr;
@@ -110,7 +110,7 @@
 
             .port_items {
                 img {
-                    width: 100%;
+                    width: 90%;
                 }
             }
         }
